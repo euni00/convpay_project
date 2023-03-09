@@ -14,7 +14,7 @@ class MoneyAdapterTest {
     @Test
     void money_use_fail() {
         // given
-        Integer payAmount = 1000_001;
+        Integer payAmount = 1500_001;
 
         // when
         MoneyUseResult moneyUseResult = moneyAdapter.use(payAmount);
